@@ -1,7 +1,7 @@
 # Tetris
 The game Tetris which I wrote for a CMPE160 project.
 
-If you just want to play it, here's a (Windows) runnable version of the game. 
+If you just want to play it, here's a (Windows) runnable version of the game. (It includes the .jar file inside. You can run it on Mac and Linux, too)
 
 https://drive.google.com/file/d/0B0ekvOGQyPytX1ZsU21oOWJ2TXM/view?usp=sharing
 
