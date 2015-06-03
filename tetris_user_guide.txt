@@ -1,0 +1,94 @@
+*****************************************************************************************************
+*---------------------------------------------------------------------------------------------------*
+*|                         TETRIS by KARACASOFT                                                    |*
+*---------------------------------------------------------------------------------------------------*
+*****************************************************************************************************
+
+==============
+1)GAMEPLAY
+==============
+	Basic tetris gameplay is preserved. There're a few mechanics you may not be used to in tetris
+games. These mechanics are introduced in the newer tetris games (After 2008)
+	
+	Hold:
+		It is possible to hold a piece in the inventory and release it whenever you want exchanging
+	with the current block you have. To prevent abusive usage, the player is limited to use hold only
+	once for one block. The player must place the block somewhere if he/she already used his/her hold
+	power.
+
+	Rotation:
+		Basic rotation mechanics were used. If rotation is not possible, it'll be tried to move left.
+	If it's not possible by moving left and rotating it, the block will be tried to move right. If
+	it's not possible either, then the block will not be rotated. The block will be push up if it
+	hits the surface after rotation.
+
+	Block Placement:
+		Blocks will be placed after 600 milliseconds after their landing. If the block is moved on
+	surface, the landing timer will be resetted. This may be used for abuse, but Tetris DS actually
+	uses this kind of mechanic and I can't think of a way to pass level 12 without it. So I'll go
+	easy with this game. :)
+
+	Levels and Scoring:
+		Speaking of levels, the game will level up after each 10 lines cleared. With each level
+	the block drop speed will be increased. Clearing lines will be scored within this table:
+
+		|----------------|--------------|
+		| lines cleared  |   Points     |
+		|----------------|--------------|
+		|      1         |    100       |
+		|----------------|--------------|
+		|      2         |    300       |
+		|----------------|--------------|
+		|      3         |    700       |
+		|----------------|--------------|
+		|      4         |   1500       |
+		|----------------|--------------|
+
+	Multiplayer:
+		Multiplayer is about survival race. Whenever a player destroys more than one rows, the other 
+	player will have a some one block empty lines coming from down.
+
+
+	AI-play:
+		A simple AI plays the game by itself
+
+
+==============
+2)CONTROLS
+==============
+
+	It is possible to change the controls of the game, but to play it quick, here are the basic controls.
+
+	Player 1
+	========
+	Left-Right Directional Keys - - - - - -> Move Piece
+	Down Directional Key- - - - - - - - - -> Drop Piece One Square
+	Up Directional Key- - - - - - - - - - -> Drop Piece Instantly To The Bottom (And place it)
+	M - - - - - - - - - - - - - - - - - - -> Rotate Piece to Left
+	N - - - - - - - - - - - - - - - - - - -> Rotate Piece to Right
+	K - - - - - - - - - - - - - - - - - - -> Hold
+	Enter - - - - - - - - - - - - - - - - -> OK
+	Escape- - - - - - - - - - - - - - - - -> Cancel
+
+
+	Player 2
+	========
+	A-D - - - - - - - - - - - - - - - - - -> Move Piece
+	S - - - - - - - - - - - - - - - - - - -> Drop Piece One Square
+	W - - - - - - - - - - - - - - - - - - -> Drop Piece Instantly To The Bottom (And place it)
+	Q - - - - - - - - - - - - - - - - - - -> Rotate Piece to Left
+	E - - - - - - - - - - - - - - - - - - -> Rotate Piece to Right
+	R - - - - - - - - - - - - - - - - - - -> Hold
+	F - - - - - - - - - - - - - - - - - - -> OK
+	G - - - - - - - - - - - - - - - - - - -> Cancel
+
+		The second player is a little bit squezed but you can always remap keys on main menu to make
+	the second player fell better. :)
+
+
+	Speaking of Main Menu Controls
+				==================
+
+	Left-Right Directional Keys - - - - - -> Cycle through menu
+	Enter - - - - - - - - - - - - - - - - -> Select Item
+	Escape- - - - - - - - - - - - - - - - -> Exit
