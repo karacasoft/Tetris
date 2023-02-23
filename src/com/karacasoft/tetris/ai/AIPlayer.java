@@ -145,11 +145,11 @@ public class AIPlayer implements OnDrawListener {
 		
 		for (Point p : map.keySet()) {
 			CellPattern pattern = map.get(p);
-			if(pattern.getPreferRate() + p.y * 5 > maxPrefRate)
+			if(pattern.getPreferRate() + p.y * 2 > maxPrefRate)
 			{
 				chosenPatterns.clear();
 				chosenPatterns.put(points[indexOfPattern], pattern);
-				maxPrefRate = pattern.getPreferRate() + p.y * 5;
+				maxPrefRate = pattern.getPreferRate() + p.y * 2;
 				
 			}else if(pattern.getPreferRate() == maxPrefRate)
 			{
