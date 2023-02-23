@@ -1,6 +1,5 @@
 package com.karacasoft.tetris.model.tetrominoes;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Random;
 
@@ -11,7 +10,6 @@ import com.karacasoft.tetris.model.Tetromino;
 public class TetrominoFactory {
 	
 	private LinkedList<Tetromino> tetriminoQueue = new LinkedList<Tetromino>();
-	private static ArrayList<Integer> lastRolls = new ArrayList<Integer>();
 	
 	public Tetromino next()
 	{
